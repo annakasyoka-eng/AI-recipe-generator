@@ -1,7 +1,6 @@
 body {
     background-color: #c040aa;
-    text-align: center;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -32,7 +31,7 @@ form {
     padding: 10px 20px;
     margin-left: 10px;
     font-size: 16px;
-    background-color: #c040aa;
+    background-color: #e555cd;
     color: white;
     border: none;
     border-radius: 30px;
@@ -45,7 +44,7 @@ form {
     background-color: #f3d1f4;
     padding: 20px;
     line-height: 2;
-    border-left: 3px solid #c040aa;
+    border-left: 3px solid #971c83;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }

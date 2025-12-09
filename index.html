@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Recipe Generator</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <h1>Cook with AI</h1>
     <main>
-    <form>
+    <form id="recipe-generator">
         <input type="text" placeholder="What ingredients are you working with today?..."
          autofocus
          required
@@ -17,8 +18,7 @@
          />
         <input type="submit" class="submit-button">
     </form>
-    <div class="recipe">
-        Recipes
+    <div class="recipe" id="recipe">
     </div>
 </main>
 <footer>
