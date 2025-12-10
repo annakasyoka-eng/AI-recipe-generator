@@ -1,12 +1,12 @@
 body {
-    background-color: #c040aa;
+    background-color: #f8d7f1;
     max-width: 700px;
     margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
-    color: rgb(239, 185, 237);
+    color: rgb(16, 5, 15);
     text-align: center;
     padding: 10px;
     line-height: 1.5;
@@ -14,7 +14,7 @@ h1 {
 
 form {
     padding: 30px;
-    background-color: #f3d1f4;
+    background-color: #fdf2ff;
     border-radius: 15px;
     display: flex;
     margin-bottom: 30px;
@@ -31,8 +31,8 @@ form {
     padding: 10px 20px;
     margin-left: 10px;
     font-size: 16px;
-    background-color: #e555cd;
-    color: white;
+    background-color: #ff9bcf;
+    color: #333;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -41,16 +41,38 @@ form {
 
 .recipe {
     font-size: 14px;
-    background-color: #f3d1f4;
-    padding: 20px;
-    line-height: 2;
+    background-color: #fff8fb;
+    padding: 15px 20px;
+    line-height: 1.6;
     border-left: 3px solid #971c83;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    white-space: pre-line; 
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+.loading {
+    animation: blink-animation 1s steps(5, start) infinite;
+
 }
 
 footer {
     margin-top: 30px;
     font-size: 13px;
-    color: white;
+    color: black;
 }
